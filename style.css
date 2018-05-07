@@ -16,15 +16,21 @@ color: blue;
 }
 
 #navbar{
+<<<<<<< HEAD
 text-align: left;
 text-transform: uppercase;
 padding: 10px;
 font-size: 14px;
+=======
+padding: 10px;
+font-size: 20px;
+>>>>>>> 89b220a... done
 color: #FFF;
 background: #000;
 opacity: 0.9;
 }
 
+<<<<<<< HEAD
 #navbar a{
 margin-right: 20px;
 margin-left: 20px;
@@ -37,6 +43,9 @@ opacity: 0.7;
 
 .header{
 margin-left: -30px;
+=======
+#header{
+>>>>>>> 89b220a... done
 padding: 50px;
 background: #000;
 background-size: 100%;
@@ -56,10 +65,13 @@ margin-left: -40vw;
 overflow: scroll;
 }
 
+<<<<<<< HEAD
 #about{
 margin-top: 100px;
 }
 
+=======
+>>>>>>> 89b220a... done
 .projects{
 overflow: scroll;
 }
