@@ -5,87 +5,47 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
-
   </head>
   <body>
-    <div id="navbar">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-    </div>
 
-    <div id="wrapper">
-
+    <div id="container">
+      
+      <div id="navbar">
+        <div id="projectsLink" class="navbarLink">Projects</div>
+        <div id="aboutLink" class="navbarLink">About</div>
+      </div>
+      
       <div id="projects">
-        <div class="project">
-          <div class="projectHeader"><img src="images/plottwitch-header.png"/></div> 
-
-          <div class="projectName">Plot twitch</div>      
-          <div class="projectDescription">
-            Plot twitch is a visualisation of the top 100 streams on Twitch in real time. This was the outcome from a project work in the course Information Visualization.
-            <br/> <br/>
-            <a href="https://infoviz-dh2321.firebaseapp.com/intro">Click here to see the project.</a>
-          </div>
+        <div class="project" id="plotTwitch">
+         <div class="logo"><img height="64px" src="images/plottwitch-logo.png"/></div>
         </div>
-
-        <div class="project">
-          <div class="projectHeader"><img src="images/librari-header.png"/></div> 
-
-          <div class="projectName">Librari</div>      
-          <div class="projectDescription">
-            Librari is an application that makes it possible to keep track of books and sort them into different bookshelves that you see fit. This was the outcome from a project work in the course Interaction Programming and the Dynamic Web.
-            <br/> <br/>
-            <a href="https://librari-41dab.firebaseapp.com/">Click here to get to the beta version.</a>
-          </div>
+        <div class="project" id="librari">
+          <div class="logo"><img height="90px" src="images/librari-logo.png"/></div>
         </div>
-
-        <div class="project">
-          <div class="projectHeader"><img src="images/piechart-header.png"/></div> 
-          <div class="projectName">Hello Piechart!</div>      
-          <div class="projectDescription">
-            This is the outcome of one of my own projects where I wanted to use React.d3 to create a dynamic piechart. As the project is not online yet, the link is not possible to click on. 
-            <br/> <br/>
-            <a href="">A not working link</a>
-          </div>
+        <div class="project" id="orienteeringApp">
+          <div class="logo"><img height="64px" src="images/orienteering-logo.png"/></div>
         </div>
-
-        <div class="project">
-            <div class="projectHeader"><img src="images/random-1.png"/></div> 
-            <div class="projectName">Random projekt 1</div>      
-            <div class="projectDescription">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <br/> <br/>
-              <a href="">A not working link</a>
-            </div>
-        </div>
-
-        <div class="project">
-
-            <div class="projectHeader"><img src="images/random-2.png"/></div> 
-            <div class="projectName">Random project 2</div>      
-            <div class="projectDescription">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <br/><br/><a href="">A not working link</a>
-            </div>
-        </div>
-
-        <div class="project">
-            <div class="projectHeader"><img src="images/random-4.png"/></div> 
-            <div class="projectName">Random project 3</div>      
-            <div class="projectDescription">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                <br/><br/>
-              <a href="">A not working link</a>
-            </div>
+        <div class="project" id="dinnerPlanner" >
+          <div class="logo">Dinner Planner</div>
         </div>
       </div>
+
+      <div id="projectOverview">
+        <h1 id="headline">Projects</h1>
+        <div id="image"></div><div id="info">Click on the images to see more information.</div>
+        <div id="links"></div>
+      </div>
+
       <div id="about">
-        <img src="images/profile.png"/>
+        <img width="150px" src="images/profile.png"/>
         <h3>Matilda Carlson</h3>
-        <h5>matildac@kth.se</h5>
-        <p>Here I will also add some more information about myself, and link to my LinkedIn etc.</p>
-       </div>
+        <p>matildac@kth.se</p>
+        <a href="https://www.linkedin.com/in/matilda-carlson-a8aaa9107/">LinkedIn</a>
+      </div>
+
     </div>
+
+    <script src="main.js"></script>
+
   </body>
-  <script src="/main.js"></script>
 </html>
