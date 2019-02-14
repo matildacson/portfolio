@@ -1,6 +1,5 @@
 body{
 font-family: Futura;
-text-align: center;
 overflow: hidden;
 }
 
@@ -55,24 +54,43 @@ opacity: 0.7;
     opacity: 0.3;
 }
 
-.header{
-margin-left: -30px;
-}
-
 #about{
+width: 100%;
+justify-content: center;
 display: none;
 background: none;
-padding: 30px;
+padding: 50px;
+padding-top: 30px;
 margin-top: 50px;
+
+}
+
+#header{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+#aboutContent{
+    display: flex;
+    width: 100%;
+}
+
+#contact, #skills, #languages, #aboutMe{
+background: #fff;
+margin: 5px;
+padding: 10px;
+justify-content: left;
 }
 
 #projects{
+text-align: center;
 background: #fff;
 display: flex;
 width: 100%;
 flex-wrap: wrap;
 justify-content: center;
-padding: 30px;
+padding: 50px;
 margin-top: 50px;
 }
 
@@ -82,6 +100,7 @@ padding-top: 10px;
 padding-left: 20%;
 padding-right: 20%;
 align-content: center;
+text-align: center;
 }
 
 #links img{
@@ -137,4 +156,16 @@ padding: 5px;
 
 #plotTwitch{
 visibility: visible;
+}
+
+h3{
+margin-top: 10px;
+}
+
+h1{
+margin-top: 0px;
+}
+
+#hello{
+margin-top: 20px;
 }
